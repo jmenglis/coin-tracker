@@ -1,0 +1,84 @@
+.card-item {
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    height: 45px;
+    margin-bottom: 4px;
+    background-color: rgb(18, 29, 39);
+    cursor: pointer;
+    padding: 4px 10px;
+    border: none;
+    color: #fff;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    width: 135px;
+}
+
+.sparkline {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+}
+.currency-image {
+    height: 24px;
+    width: 24px;
+    margin-right: 8px;
+}
+
+.stacked {
+    display: flex;
+    flex-direction: column;
+}
+
+.stacked span:first-child {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.stacked span:last-child {
+    font-size: 9px;
+    color: rgb(138, 147, 159);
+}
+
+.volume-stacked {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 140px;
+}
+
+.volume-stacked span:first-child {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.volume-stacked span:last-child {
+    font-size: 11px;
+    color: rgba(138, 147, 159, 0.4);
+}
+
+.price-stacked {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 95px;
+}
+
+.price-stacked span:first-child {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.price-stacked span:last-child {
+    font-size: 11px;
+}
+
+.price-pos {
+    color: rgb(46, 174, 52);
+}
+.price-neg {
+    color: rgb(249, 103, 45);
+}

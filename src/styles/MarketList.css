@@ -1,0 +1,7 @@
+.expandable-list {
+    list-style: none;
+    background-color: #060d13;
+    max-width: 34rem;
+    overflow: hidden;
+    padding: 0;
+}
